@@ -1,0 +1,104 @@
+
+.subscription-info {
+    width:1170px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-top: -100px;
+    background-color: hsl(235.38,11.11%,22.94%);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.left-col {
+    width: 30%;
+
+}
+
+.center-col {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right-col {
+    width: 30%;
+
+}
+
+.price {
+    width: 100px;
+    background-color: red; /* Устанавливаем красный цвет фона */
+    color: white; /* Устанавливаем белый цвет текста для контраста */
+    padding: 10px; /* Добавляем отступы вокруг текста */
+    border-radius: 5px; /* Добавляем скругление углов */
+    /* Другие необходимые стили */
+}
+
+
+.right-col img {
+    width: 55%;
+    height: auto;
+    border-radius: 10px;
+    position: relative; /* Задаем позиционирование */
+    top: -0px; /* Сдвигаем картинку вниз на 20px */
+    left: -50px;
+}
+.right-col h2 {
+    position: relative;
+    top: 20px;
+    right: 40px;
+    text-align: center;
+    /* Другие необходимые стили */
+}
+.right-col p{
+    width: 300px;
+    top : 20px;
+    position: relative;
+    /*top: 20px;*/
+    /*right: 40px;*/
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.right-col button{
+    width: 300px;
+    top : 40px;
+    position: relative;
+    right: 10px;
+    /*top: 20px;*/
+    /*right: 40px;*/
+}
+.left-col h2{
+    color:rgb(255,216,0);
+}
+.center-col h2{
+    color: rgb(255,216,0);
+}
+.right-col h2{
+    color: rgb(255,216,0);
+}
+.col p {
+    position: relative;
+}
+
+.left-col p::after,
+.center-col p::after {
+    content: '';
+    display: block;
+    width: calc(100% - 10px); /* Ширина линии с учетом отступов */
+    height: 1px;
+    margin-top: 8px; /* Расстояние между линиями и параграфами */
+    padding-left: 50px; /* Отступ слева */
+    padding-right: 50px; /* Отступ справа */
+    background-color: white;
+}
+

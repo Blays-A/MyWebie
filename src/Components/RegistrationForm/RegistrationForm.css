@@ -1,0 +1,61 @@
+/* Стили для вашего регистрационного бокса */
+/* Стили для вашей регистрационной формы с изображением в левой части */
+
+.registration-form {
+    width: 1154px;
+    max-width: 1000px;
+    margin: 120px auto 20px; /* Отступ сверху 50px, а снизу и справа 20px */
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(247,247,247) ;/* Прозрачность задается в последнем параметре (0.8 - это 80% прозрачности) */
+    /*box-shadow: rgba(176, 82, 82, 0.15) 0px 15px 25px, rgb(252, 12, 12) 0px 5px 10px;*/
+    text-align: center;
+    /*opacity: 0.8; !* Прозрачность установлена на 80% *!*/
+    /*margin-left: 20px;*/
+    font-family: 'Montserrat',Arial ,  sans-serif; /* Используем шрифт Roboto */
+
+}
+.registration-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.registration-form form div {
+    margin-bottom: 15px;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration-form input,
+.registration-form select {
+    width: 50%;
+    padding: 12px;
+    border-radius: 20px;
+    border: 4px solid #ccc;
+    border-color: navajowhite;
+}
+
+.registration-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffe900;
+    color: #03111e;
+    cursor: pointer;
+    font-family: 'Montserrat', Arial, sans-serif; /* Используем шрифт Montserrat */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+}
+
+.registration-form button:hover {
+    background-color: #afd1ff; /* Новый цвет при наведении */
+}
+
+.reg-but{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto ;
+}

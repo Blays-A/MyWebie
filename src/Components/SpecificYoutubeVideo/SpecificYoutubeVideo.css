@@ -1,0 +1,18 @@
+.video-container1 {
+    position: relative;
+   margin-top: 150px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+.video-container1 h1 {
+   text-align: center;
+    margin-left: -100px;
+}
+
+.video-container2{
+    position: relative;
+    margin-top: -321px;
+    margin-left: 670px;
+    border-radius: 10px;
+    padding-left: 30px;
+}

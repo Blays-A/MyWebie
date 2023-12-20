@@ -1,0 +1,129 @@
+.new-box {
+    width: 565px;
+    height: 505px;
+    position: absolute;
+    left: 138px;
+    background-color: rgb(255,211,105);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-family: Montserrat;
+}
+
+.second-box {
+    width: 172px;
+    height: 117px;
+    position: absolute;
+    left: 734px;
+    margin-top: 30px;
+    background-color: #f7f7f7;
+    border: 1px solid #e12828;
+    border-radius: 20px;
+    padding: 10px; /* добавлен отступ внутри блока */
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.second-box h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.second-box p {
+    margin: 5px 0;
+    text-align: left; /* текст выровнен влево */
+}
+
+.third-box {
+    width: 172px;
+    height: 117px;
+    position: absolute;
+    left: 926px;
+    margin-top: 30px;
+    background-color: #f7f7f7;
+    border: 1px solid #e12828;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.third-box h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.third-box p {
+    margin: 5px 0;
+    text-align: left; /* текст выровнен влево */
+}
+
+.fourth-box {
+    width: 172px;
+    height: 117px;
+    position: absolute;
+    left: 1118px;
+    margin-top: 30px;
+    background-color: #f7f7f7;
+    border: 1px solid #e12828;
+    border-radius: 20px;
+    padding: 10px; /* добавлен отступ внутри блока */
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.fourth-box h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.fourth-box p {
+    margin: 5px 0;
+    text-align: left; /* текст выровнен влево */
+}
+.new-box hr {
+    /*border-top: 1px solid #000; !* Задаем черный цвет линии *!*/
+}
+.fifth-box {
+    width: 565px;
+    height: 184px;
+    position: absolute;
+    left: 733px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 175px;
+    border-radius: 20px;
+    display: flex; /* Используем flexbox */
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 20px;
+;
+}
+.fifth-box h1 {
+    font-size: 24px;
+}
+
+.with-vertical-line {
+    position: relative;
+}
+
+.with-vertical-line::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: +10px; /* Расстояние от h1 до линии */
+    width: 1px;
+    background-color: #000; /* Цвет линии */
+}
+
+
+.waves-icon {
+    width: 45px; /* Установите желаемую ширину иконки */
+    height: 45px; /* Установите желаемую высоту иконки */
+    margin-right: 15px;
+    margin-bottom: 10px; /* Добавьте отступ снизу, чтобы отделить текст от иконки */
+}

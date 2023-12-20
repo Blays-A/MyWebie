@@ -1,0 +1,46 @@
+/* Courses.css */
+
+/* Courses.css */
+
+/* Стили для таблицы */
+.custom-table {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-left: auto; /* Выравнивание таблицы влево */
+    margin-right: auto; /* Центрирование таблицы по горизонтали */
+    margin-bottom: 1000px;
+    /* Другие необходимые стили */
+}
+/* Courses.css */
+
+/* Стили для контейнера */
+.container {
+    /* Стили контейнера */
+    font-family: Montserrat;
+}
+
+/* Стили для строки */
+.row {
+    /* Стили строки */
+
+}
+
+/* Стили для колонки */
+.col-md-8 {
+    /* Стили колонки */
+}
+
+/* Стили для центрирования контента */
+.center-content {
+    text-align: center; /* Выравнивание контента по центру */
+}
+
+/* Стили для заголовка курсов */
+.your-custom-class {
+    /* Стили заголовка */
+    font-family: Montserrat;
+}
+
+/* Стили для таблицы */
+

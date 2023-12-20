@@ -1,0 +1,137 @@
+/* Ваш CSS-файл */
+.events-container {
+    width: 1155px;
+    height: 503px;
+    margin-left: 143px;
+    margin-right: 1299px;
+    margin-top: 120px;
+    background-color: #dddddd;
+    border-radius: 20px;
+    /* Другие стили по вашему усмотрению */
+}
+.image-box {
+    width: 664px;
+    height: 488px;
+    left: 634px;
+    right: 1298px;
+    /* Дополнительные стили для контейнера с изображением */
+}
+
+.event-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Обрезать изображение, чтобы оно заполняло контейнер */
+    border-radius: 20px; /* Закругление углов изображения */
+    margin-top: -515px;
+    margin-left:640px;
+}
+
+.event-description1{
+    font-size: 19px;
+    width: 500px;
+    text-align: center;
+    font-family: Montserrat;
+}
+.event-description2{
+    font-size: 19px;
+    width: 500px;
+    text-align: center;
+    font-family: Montserrat;
+}
+.event-description3{
+    font-size: 19px;
+    width: 495px;
+    text-align: center;
+    font-family: Montserrat;
+}
+.events-container h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Montserrat;
+    margin-right: 40px;
+}
+ Ваш CSS-файл Events.css
+
+ Стили для обертки выпадающих списков
+.dropdowns {
+
+    color: black;
+
+}
+
+/* Стили для имени месяца */
+.dropdowns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1162px;
+    margin: 0 auto;
+    margin-top: -420px;
+    margin-right: 40px;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.month-name {
+    width: 1000px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom: 1px solid #000;
+
+}
+
+.events-list {
+    width: 1000px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+
+}
+
+/*.dropdowns {*/
+/*    width: 768px;*/
+/*    height: 428px;*/
+/*    position: absolute;*/
+/*    left: 338px;*/
+/*    right: 1106px;*/
+/*    !* Другие стили для вашего бокса dropdown *!*/
+/*    margin-top: -400px;*/
+/*}*/
+
+
+/*.month-name {*/
+/*    width: 200px;*/
+/*    cursor: pointer;*/
+/*    font-weight: bold;*/
+/*    margin-bottom: 10px;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.events-list {*/
+/*    width: 200px;*/
+/*    font-size: 14px;*/
+/*    line-height: 1.5;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*!* Стили для горизонтальной линии *!*/
+/*.month-divider {*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    border: none;*/
+/*    border-top: 1px solid #ccc;*/
+/*}*/
+
+.second-box{
+    font-size: 20px;
+    text-align: center;
+}

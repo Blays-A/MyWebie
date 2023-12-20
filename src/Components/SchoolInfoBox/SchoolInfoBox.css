@@ -1,0 +1,107 @@
+.box12 {
+    width: 261px;
+    height: 439px;
+    background-color: rgb(220, 201, 201);
+    margin-left: 140px;
+    margin-top: 330px;
+    border-radius: 20px;
+    font-family: Montserrat;
+}
+.box12 img{
+    width: 260px;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+.box12 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none; /* Чтобы убрать стандартное подчёркивание ссылки */
+    color: inherit; /* Чтобы сохранить цвет текста ссылки */
+}
+
+.box22 {
+    /* Другие свойства стилей для третьего бокса */
+    width: 261px;
+    height: 439px;
+    background-color: rgb(220, 201, 201);
+    margin-top: -440px;
+    margin-left: 440px;
+    border-radius: 20px;
+    font-family: Montserrat;
+}
+.box22 img{
+    width: 260px;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+.name12{
+    text-align: center;
+}
+.box32 {
+    width: 261px;
+    height: 439px;
+    background-color: rgb(220, 201, 201);
+    margin-top: -440px;
+    margin-left: 740px;
+    border-radius: 20px;
+    font-family: Montserrat;
+}
+
+.box32 img{
+    width: 260px;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+.box32 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none; /* Чтобы убрать стандартное подчёркивание ссылки */
+    color: inherit; /* Чтобы сохранить цвет текста ссылки */
+}
+.box42 {
+    width: 261px;
+    height: 439px;
+    background-color: rgb(220, 201, 201);
+    margin-top: -440px;
+    margin-left: 1040px;
+    border-radius: 20px;
+    font-family: Montserrat;
+
+}
+.box42 img{
+    width: 260px;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+.box42 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none; /* Чтобы убрать стандартное подчёркивание ссылки */
+    color: inherit; /* Чтобы сохранить цвет текста ссылки */
+}
+.general-bo{
+    margin-top: -250px;
+    margin-bottom: -10px;
+}
+.education-place{
+    font-size: 10px;
+    margin-top: -15px;
+    color: #ffffff;
+}
+.education{
+    margin-top: -10px;
+    color: black;
+}
+.desire{
+    margin-top: -20px;
+}
+.box12 img{
+    margin-top: 70px;
+}
