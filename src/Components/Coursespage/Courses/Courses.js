@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import './Courses.css'; // Подключаем файл стилей для компонента Courses
-import 'bootstrap/dist/css/bootstrap.min.css'; // Импорт стилей CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 const Courses = () => {
     const [showModal, setShowModal] = useState(false);

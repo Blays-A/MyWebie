@@ -1,15 +1,16 @@
 import Footermenu from "../Footermenu/Footermenu";
 import React from "react";
 import Dictionary from "./Dictionary/Dictionary";
+import Redictionary from "./Dictionary/Redictionary";
 
-const Dictionarypage = () => {
+const RedictionaryPage = () => {
     return (
         <div className="home-page">
             {/* Вставьте компоненты, которые вы хотите отобразить на главной странице */}
-            <Dictionary/>
+            <Redictionary/>
             <Footermenu/>
         </div>
     );
 };
 
-export default Dictionarypage;
+export default RedictionaryPage;

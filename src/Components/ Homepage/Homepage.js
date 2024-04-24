@@ -12,8 +12,7 @@ import Footermenu from "../Footermenu/Footermenu";
 const HomePage = () => {
     return (
         <div className="home-page">
-            {/* Вставьте компоненты, которые вы хотите отобразить на главной странице */}
-            <RegistrationForm />
+            <RegistrationForm/>
             <SchoolInfoBox />
             <KnowledgeTest />
             <Price />

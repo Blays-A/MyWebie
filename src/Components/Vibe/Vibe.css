@@ -32,8 +32,10 @@
 }
 
 .second-box p {
-    margin: 5px 0;
-    text-align: left; /* текст выровнен влево */
+    /*margin: 5px 0;*/
+    text-align: center; /* текст выровнен влево */
+    margin-top: -4px;
+    font-size: 19px;
 }
 
 .third-box {
@@ -57,7 +59,9 @@
 
 .third-box p {
     margin: 5px 0;
-    text-align: left; /* текст выровнен влево */
+    text-align: center; /* текст выровнен влево */
+    margin-top: -5px;
+    font-size: 18px;
 }
 
 .fourth-box {

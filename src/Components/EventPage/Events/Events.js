@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Events.css';
-import * as monthsData from "react-bootstrap/ElementChildren";
-import SpecificYoutubeVideo from "../../SpecificYoutubeVideo/SpecificYoutubeVideo"; // Путь к вашему CSS-файлу для страницы мероприятий
+// import * as monthsData from "react-bootstrap/ElementChildren";
+// import SpecificYoutubeVideo from "../../SpecificYoutubeVideo/SpecificYoutubeVideo"; // Путь к вашему CSS-файлу для страницы мероприятий
 
 const Events = () => {
     const [selectedMonth, setSelectedMonth] = useState(null);

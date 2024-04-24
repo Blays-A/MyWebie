@@ -6,12 +6,15 @@
     margin-top: 330px;
     border-radius: 20px;
     font-family: Montserrat;
+
 }
-.box12 img{
+
+.custom-image {
     width: 260px;
     height: 200px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 40px 40px; /* Top-left, top-right, bottom-right, bottom-left */
 }
+
 
 .box12 a {
     display: flex;
@@ -69,14 +72,15 @@
     background-color: rgb(220, 201, 201);
     margin-top: -440px;
     margin-left: 1040px;
-    border-radius: 20px;
+    border-radius: 20px 20px 40px 40px; /* Top-left, top-right, bottom-right, bottom-left */
     font-family: Montserrat;
 
 }
 .box42 img{
     width: 260px;
     height: 200px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 0px 0px 20px 20px ; /* Top-left, top-right, bottom-right, bottom-left */
+    margin-top: -14px;
 }
 .box42 a {
     display: flex;
@@ -86,6 +90,9 @@
     text-decoration: none; /* Чтобы убрать стандартное подчёркивание ссылки */
     color: inherit; /* Чтобы сохранить цвет текста ссылки */
 }
+.box42 h1 {
+    font-size: 35px;
+}
 .general-bo{
     margin-top: -250px;
     margin-bottom: -10px;
@@ -93,7 +100,7 @@
 .education-place{
     font-size: 10px;
     margin-top: -15px;
-    color: #ffffff;
+    color: #1d670f;
 }
 .education{
     margin-top: -10px;

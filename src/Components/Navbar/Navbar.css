@@ -84,3 +84,8 @@
     border: 1px solid #ccc;
     border-radius: 20px;
 }
+
+.navbar-center ul li a.active {
+    border-bottom: 2px solid #c0b96d; /* Линия под активной страницей */
+    /* Другие стили для подсветки активной страницы */
+}

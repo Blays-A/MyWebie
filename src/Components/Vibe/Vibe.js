@@ -16,14 +16,16 @@ const Vibe = () => {
             </div>
             <div className="second-box">
                 <h1>8</h1>
-                <p>филиалов</p>
-                <p>в г. Алматы</p>
+                <p>филиалов
+                    в г. Алматы
+                </p>
                 </div>
             <div className="third-box">
                 <div>
                     <h1>50</h1>
-                    <p>оборудованных</p>
-                    <p>кабинетов</p>
+                    <p>оборудованных
+                        кабинетов</p>
+                    {/*<p>кабинетов</p>*/}
                 </div>
             </div>
             <div className="fourth-box">

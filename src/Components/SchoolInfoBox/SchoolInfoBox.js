@@ -7,7 +7,7 @@ const SchoolInfoBox = () => {
             <div className="box12">
                 <h1>Учителя JSI</h1>
                 <p>Наши преподаватели знают как мотивировать на достижение цели и помогут освоить английский быстрее</p>
-                <img src=" https://www.digis.kz/upload/iblock/ccb/7yx12tumbhjvjf6al17fl3ekqohibulr/оснащение_школьного_кабинета_английского_языка_под_ключ_алматы.jpg" alt="Coworking" />
+                <img className="custom-image" src="https://www.digis.kz/upload/iblock/ccb/7yx12tumbhjvjf6al17fl3ekqohibulr/оснащение_школьного_кабинета_английского_языка_под_ключ_алматы.jpg" alt="Coworking" />
             </div>
             <div className="box22">
                 <img src="https://as1.ftcdn.net/v2/jpg/03/61/64/06/1000_F_361640617_iqVbyohwrM0HmOb8mzI84xuWEUYv1FeZ.jpg" alt="pictue" />
@@ -24,11 +24,13 @@ const SchoolInfoBox = () => {
                 <p className='desire'>Приглашаю вас к себе на урок. Будет очень много интересных фактов и истории об изучении английского языка. Уроки с юмором и приколами и с огромным позитивом ждут вас</p>
             </div>
             <div className="box42">
-                <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFzmMVyrUWhGCDWAprFqRURHtdPggU9eTBjg&usqp=CAU" alt="Coworking" />
-                <p className="name1">Mr.Lie </p>
-                <p className="education">ОБРАЗОВАНИЕ</p>
-                <p className="education-place">МУИТ</p>
-                <p className='desire'>Объясняю материал на понятном языке и без скучной зубрежки - легкотня. Мы словим один Vibe в процессе и будем best buddies по английскому)</p>
+                <h1 className="name1">Наши цели на 2024 год </h1>
+                <ul>
+                    <li>Стать лучшей языковой школой в Казахстане </li>
+                    <li>Выпустить курс для IETLS </li>
+                    <li>Подарить лучший вайб для наших любимых учеников </li>
+                </ul>
+                <img src="https://bhub.com.ua/wp-content/uploads/2020/12/FFE389B7-58E8-4B39-8599-3A50BD10C52A.webp" alt="Coworking" />
             </div>
 
             </div>
