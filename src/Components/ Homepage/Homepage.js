@@ -15,7 +15,7 @@ const HomePage = () => {
             <RegistrationForm/>
             <SchoolInfoBox />
             <KnowledgeTest />
-            <Price />
+            {/*<Price />*/}
             <Vibe/>
             <AudioPlayer/>
             <Subscription/>

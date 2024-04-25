@@ -1,60 +1,4 @@
-/*.available-courses {*/
-/*    font-family: Arial, sans-serif;*/
-/*    margin-top: 20px;*/
-/*}*/
 
-/*.available-courses h2 {*/
-/*    font-size: 24px;*/
-/*    margin-bottom: 20px;*/
-/*    color: #333;*/
-/*}*/
-
-/*.available-courses ul {*/
-/*    list-style-type: none;*/
-/*    padding: 0;*/
-/*}*/
-
-/*.available-courses li {*/
-/*    background-color: #f9f9f9;*/
-/*    border-radius: 5px;*/
-/*    margin-bottom: 15px;*/
-/*    padding: 15px;*/
-/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
-/*    transition: transform 0.2s;*/
-/*}*/
-
-/*.available-courses li:hover {*/
-/*    transform: translateY(-3px);*/
-/*}*/
-
-/*.available-courses li h3 {*/
-/*    font-size: 20px;*/
-/*    color: #333;*/
-/*    margin-bottom: 5px;*/
-/*}*/
-
-/*.available-courses li p {*/
-/*    margin: 0;*/
-/*    color: #666;*/
-/*}*/
-
-/*.available-courses li button {*/
-/*    background-color: #007bff;*/
-/*    color: #fff;*/
-/*    border: none;*/
-/*    border-radius: 5px;*/
-/*    padding: 8px 15px;*/
-/*    cursor: pointer;*/
-/*    transition: background-color 0.3s;*/
-/*}*/
-
-/*.available-courses li button:hover {*/
-/*    background-color: #0056b3;*/
-/*}*/
-/* AvailableCourses.css */
-
-/* AvailableCourses.css */
-/* AvailableCourses.css */
 
 .modal-overlay {
     position: fixed;
@@ -103,6 +47,98 @@
     padding: 8px 15px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+.modal button:hover {
+    background-color: #0056b3;
+}
+
+.available-courses-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.available-courses-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.available-courses-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.available-courses-container li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.available-courses-container li h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.available-courses-container li p {
+    margin: 5px 0;
+}
+
+.available-courses-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.available-courses-container button:hover {
+    background-color: #0056b3;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.modal input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.modal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
 }
 
 .modal button:hover {
