@@ -1,63 +1,68 @@
 // работает
 // import React from "react";
-// import {BuyCourseAction, Course, CourseActionTypes} from "./CourseActionff";
+// import { Course } from "./CourseActionff";
 //
 // interface PurchasedCoursesProps {
 //     courses: Course[];
+//     addCourseToLocalStorage: (course: Course) => void;
+//     buyCourse: (course: Course) => void;
+//     removeCourse: (course: Course) => void;
 // }
 //
-// // Определяем action creator для покупки курса
-// export const buyCourse = (courseId: number): BuyCourseAction => {
-//     return {
-//         type: CourseActionTypes.BUY_COURSE,
-//         courseId
-//     };
-// };
-//
-// const PurchasedCourses: React.FC<PurchasedCoursesProps> = ({ courses }) => {
+// const PurchasedCourses: React.FC<PurchasedCoursesProps> = ({ courses, addCourseToLocalStorage, buyCourse, removeCourse }) => {
 //     return (
 //         <div>
-//             <h2>Приобретенные курсы</h2>
-//             <ul>
-//                 {courses.map((course) => (
-//                     <li key={course.id}>
-//                         <h3>{course.title}</h3>
-//                         <p>Язык: {course.language}</p>
-//                         <p>Цена: ${course.price}</p>
-//                     </li>
-//                 ))}
-//             </ul>
+//             <h2>Purchased Courses</h2>
+//             {courses.length > 0 ? (
+//                 <ul>
+//                     {courses.map((course) => (
+//                         <li key={course.id}>
+//                             <h3>{course.title}</h3>
+//                             <p>Language: {course.language}</p>
+//                             <p>Price: ${course.price}</p>
+//                         </li>
+//                     ))}
+//                 </ul>
+//             ) : (
+//                 <p>No purchased courses yet</p>
+//             )}
 //         </div>
 //     );
 // };
 //
-//
 // export default PurchasedCourses;
 
-// В вашем компоненте PurchasedCourses
-import React from 'react';
-import { connect } from 'react-redux';
 
-const PurchasedCourses = ({ purchasedCourses }) => {
+
+import React from "react";
+import { Course } from "./CourseActionff";
+
+interface PurchasedCoursesProps {
+    courses: Course[];
+    addCourseToLocalStorage: (course: Course) => void;
+    buyCourse: (course: Course) => void;
+    removeCourse: (course: Course) => void;
+}
+
+const PurchasedCourses: React.FC<PurchasedCoursesProps> = ({ courses, addCourseToLocalStorage, buyCourse, removeCourse }) => {
     return (
         <div>
-            <h2>Приобретенные курсы</h2>
-            <ul>
-                {purchasedCourses.map((course) => (
-                    <li key={course.id}>
-                        <h3>{course.title}</h3>
-                        <p>Язык: {course.language}</p>
-                        <p>Цена: ${course.price}</p>
-                    </li>
-                ))}
-            </ul>
+            <h2>Purchased Courses</h2>
+            {courses.length > 0 ? (
+                <ul>
+                    {courses.map((course) => (
+                        <li key={course.id}>
+                            <h3>{course.title}</h3>
+                            <p>Language: {course.language}</p>
+                            <p>Price: ${course.price}</p>
+                        </li>
+                    ))}
+                </ul>
+            ) : (
+                <p>No purchased courses yet</p>
+            )}
         </div>
     );
 };
 
-const mapStateToProps = (state) => ({
-    purchasedCourses: state.courseReducer.purchasedCourses
-});
-
-export default connect(mapStateToProps)(PurchasedCourses);
-
+export default PurchasedCourses;

@@ -77,7 +77,7 @@ const FooterMenu = () => {
                     <li><NavLink to="/intermediate" activeClassName="active">Intermediate</NavLink></li>
                     <li><NavLink to="/dictionary" activeClassName="active">Dictionary</NavLink></li>
                     <li><NavLink to="/Redict" activeClassName="active">Redictionary</NavLink></li>
-                    <li><NavLink to="/CoursesPurchase" activeClassName="active">Courses</NavLink></li>
+                    <li><NavLink to="/CoursesPurchase" activeClassName="active">Purchases</NavLink></li>
                     {/*<li><NavLink to="/ViLearn" activeClassName="active">ViLearn</NavLink></li>*/}
                 </ul>
                 <div className={"footerimg d-flex justify-content-center align-items-center "}>

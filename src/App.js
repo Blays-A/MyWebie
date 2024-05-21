@@ -15,6 +15,7 @@ import RedictionaryPage from "./Components/Dictionarypage/RedictionaryPage";
 import {Provider} from "react-redux";
 import store from "./Redux/Store";
 import CourseList from "./Components/CourseListPage/CourseList/CourseList";
+import CourseListPage from "./Components/CourseListPage/CourseListPage";
 
 
 //
@@ -90,7 +91,7 @@ const App = () => {
                     <Route path="/intermediate" element={<Intermediatepage />} />
                     <Route path="/dictionary" element={<Dictionarypage />} />
                     <Route path="/Redict" element={<RedictionaryPage />} /> {/* Добавляем маршрут для RedictionaryPage */}
-                    <Route path="/CoursesPurchase" element={<CourseList />} />
+                    <Route path="/CoursesPurchase" element={<CourseListPage />} />
                     {/*<Route path="/ViLearn" element={<Voi/>} />*/}
                 </Routes>
             </Router>

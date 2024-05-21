@@ -112,9 +112,9 @@ const Price = () => {
                     </div>
 
                 </div>
-                <div className={`modal ${isModalOpen ? 'show' : ''}`}>
-                    <div className="modal-content">
-                        <span className="close" onClick={handleCloseModal}>&times;</span>
+                <div className={`modal98 ${isModalOpen ? 'show' : ''}`}>
+                    <div className="modal-content98">
+                        <span className="close98" onClick={handleCloseModal}>&times;</span>
                         <h2>Оставьте заявку</h2>
                         <form onSubmit={handleFormSubmit}>
                             <input type="text" placeholder="Имя" value={name} onChange={handleNameChange} />
